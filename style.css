@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* height: 300vh; */
+    background-color: whitesmoke;
+}
+
+/* Navbar code */
+nav {
+    background-color: #253025
+}
+
+.logo {
+    float: left;
+    width: 10%;
+    height: 70px;
+    background-color: #212529
+}
+
+.logo img {
+    width: 140px;
+    height: 60px;
+    margin-top: 5px;
+}
+
+nav ul {
+    float: right;
+    width: 90%;
+    height: 70px;
+    background-color: #212529
+}
+
+nav ul input {
+    width: 600px;
+    padding: 10px;
+    font-size: 18px;
+    padding-left: 50px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
+nav ul .btn_left {
+    position: absolute;
+    padding: 12px 12px 13px 12px;
+    left: 340px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+nav ul .btn_right {
+    position: absolute;
+    padding: 10px 13px 10px 13px;
+    left: 956px;
+    border: none;
+    font-size: 18px;
+    background-color: rgb(241, 152, 51);
+    border-radius: 0 5px 5px 0;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 10px;
+
+}
+
+/* second nav */
+
+
+.nav ul {
+    background-color: #343A40;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-left: 15px;
+    padding: 8px 0 8px 0;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* sladeshow css code */
+.slide {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide {
+    display: none;
+}
+
+.slide:nth-child(1) {
+    display: flex;
+}
+
+.slide img {
+    width: 1500px;
+    height: 100vh;
+
+}
+
+button {
+    cursor: pointer;
+}
+
+.btn1 {
+    position: absolute;
+    font-size: 50px;
+    left: 100px;
+    top: 200px;
+    background-color: transparent;
+    border: none;
+
+    color: white;
+    /* float: left; */
+}
+
+.btn2 {
+    position: absolute;
+    font-size: 50px;
+    right: 100px;
+    top: 200px;
+    float: right;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+/* third section */
+.category {
+    position: relative;
+    top: 300px;
+}
+
+.card {
+    width: 22%;
+    min-width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+
+}
+
+.card h2 {
+    margin-top: 15px;
+    padding: 0 15px 0 15px;
+}
+
+.card img {
+    width: 120px;
+    height: 80px;
+}
+
+.card p {
+    max-width: 120px;
+}
+
+.card button {
+    background-color: rgb(245, 207, 20);
+    padding: 8px 80px 8px 80px;
+    margin-left: 8%;
+    border: none;
+    border-radius: 10px;
+}
+
+.book {
+    margin-top: 10px;
+}
+
+.card .book img {
+    width: 200px;
+    height: 230px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+.flex_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+/* today deals section */
+.main_view {
+    max-width: 1500px;
+    width: 1450px;
+    height: 290px;
+    margin: auto;
+    background-color: white;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-top: 320px;
+}
+
+.today_deals {
+    /* margin-top: 1100px; */
+    display: flex;
+    height: 100%;
+    min-width: calc(190px *20);
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transition: all .6s;
+
+}
+
+.today_card {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.left_btn {
+    font-size: 40px;
+    position: absolute;
+    top: 74rem;
+    padding: 15px 5px 15px 5px;
+    float: left;
+}
+
+.right_btn {
+    font-size: 40px;
+    position: absolute;
+    top: 74rem;
+    float: right;
+    padding: 15px 5px 15px 5px;
+    left: 95vw;
+
+
+}
+
+footer {
+    background-color: #232f3e;
+}
+
+.footer {
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+footer ul {
+    width: 200px;
+    padding: 50px;
+    min-width: 250px;
+
+}
+
+footer ul li {
+    list-style: none;
+    line-height: 30px;
+}
+
+footer ul li:first-child {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer h4 {
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+
+.sign_in {
+    padding: 30px;
+}
+
+.sign_in button {
+    background-color: rgb(230, 172, 12);
+    border: 2px solid rgb(242, 128, 14);
+    padding: 5px 100px 5px 100px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 5px;
+
+}

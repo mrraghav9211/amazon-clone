@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width , initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <title>SlideShow</title>
+</head>
+
+<body>
+
+    <!-- navigation -->
+    <nav>
+        <div class="logo">
+            <img src="./logo.png" alt="">
+        </div>
+        <ul>
+
+            <li><a href=""><span style="font-size: 11px;">Hello</span><br> <span> <i
+                            class="fa-solid fa-location-dot"></i> Select your Address</span></a>
+            </li>
+            <li><button class="btn_left">All</button><input type="text" placeholder="search"><button class="btn_right">
+                    <i class="fa-solid fa-magnifying-glass"></i></button></li>
+            <li><a href=""><span style="font-size: 11px;">Hello,Sign in</span><br><span>Account & Lists</span></a></li>
+            <li><a href=""><span style="font-size: 11px;">Returns</span><br><span>&Orders</span></a></li>
+            <li><a href=""><span style="font-size: 30px;"><i class="fa-solid fa-cart-shopping"></i></span>Cart</a>
+            </li>
+
+        </ul>
+    </nav>
+    <section class="nav">
+        <ul>
+            <li><a href=""><span><i class="fa-solid fa-bars"></i></span> All</a></li>
+            <li><a href="">Best Sellars</a></li>
+            <li><a href="">Mobiles</a></li>
+            <li><a href="">Cumtomer Service</a></li>
+            <li><a href="">Today's Deals</a></li>
+            <li><a href="">Fashion</a></li>
+            <li><a href="">Elecronics</a></li>
+            <li><a href="">Prime</a></li>
+            <li><a href="">New Releases</a></li>
+            <li><a href="">Home & Kitchen</a></li>
+            <li><a href="">Amazon Pay</a></li>
+            <li><a href="">Books</a></li>
+            <li><a href="">Computers</a></li>
+            <li><a href="">Clearance Store</a></li>
+            <li><a href="">Coupons</a></li>
+        </ul>
+
+    </section>
+
+
+
+    <div class="container">
+        <div class="slide">
+            <img id="img_container" src="./img/amazon1.jpg" alt="">
+        </div>
+
+        <div class="slide">
+            <img id="img_container" src="./img/amazon2.jpg" alt="">
+        </div>
+
+        <div class="slide">
+            <img id="img_container" src="./img/amazon3.jpg" alt="">
+        </div>
+
+        <div class="slide">
+            <img id="img_container" src="./img/amazon4.jpg" alt="">
+        </div>
+
+        <div class="slide">
+            <img id="img_container" src="./img/amazon5.jpg" alt="">
+        </div>
+
+        <button class="btn1" onclick="moveSlide(-1)"><i class="fa-solid fa-angle-left"></i></button> <button
+            class="btn2" onclick="moveSlide(1)"><i class="fa-solid fa-angle-right"></i></button>
+    </div>
+
+    <!-- third section for show category of the product -->
+    <section class="category flex_container">
+        <div class=" card flex_container">
+            <h2> Top rated, premium quality | Amazon Brands..</h2>
+            <div>
+                <img src="./amazon/top-rated/top1.jpg" alt="">
+                <p>Home Product</p>
+            </div>
+            <div>
+                <img src="./amazon/top-rated/top2.jpg" alt="">
+                <p>Furniture</p>
+            </div>
+            <div>
+                <img src="./amazon/top-rated/top3.jpg" alt="">
+                <p>Daily assentials</p>
+            </div>
+            <div>
+                <img src="./amazon/top-rated/top4.jpg" alt="">
+                <p>Clothing assentials</p>
+            </div>
+
+        </div>
+
+        <div class="card flex_container">
+            <h2>Summer essentials for car & bike</h2>
+            <div>
+                <img src="./amazon/summer/summer1.jpg" alt="">
+                <p>Car Cover</p>
+            </div>
+            <div>
+                <img src="./amazon/summer/summer2.jpg" alt="">
+                <p>Bike Cover</p>
+            </div>
+            <div>
+                <img src="./amazon/summer/summer3.jpg" alt="">
+                <p>Car Air Freshers</p>
+            </div>
+            <div>
+                <img src="./amazon/summer/summer4.jpg" alt="">
+                <p>BIS certified Helmets</p>
+            </div>
+
+        </div>
+        <div class="card flex_container">
+            <h2>Pay & Shop | Earn rewards daily</h2>
+            <div>
+                <img src="./amazon/pay/pay1.jpg" alt="">
+                <p> Claim your scratch cards</p>
+            </div>
+            <div>
+                <img src="./amazon/pay/top2.jpg" alt="">
+                <p>Redeem your collected rewards</p>
+            </div>
+            <div>
+                <img src="./amazon/pay/top3.jpg" alt="">
+                <p>Unlock more rewards when you pay or shop</p>
+            </div>
+            <div>
+                <img src="./amazon/pay/top4.jpg" alt="">
+                <p> Explore all Rewards in one place</p>
+            </div>
+
+        </div>
+        <div class="card">
+            <div>
+                <h2>Sign in for your best experience</h2>
+                <button>Sign in securely</button>
+            </div>
+            <div class="book">
+                <img src="./amazon/richdad.jpg" alt="">
+            </div>
+
+        </div>
+        <div class="card flex_container">
+            <h2>Automotive essentials | Up to 60% off</h2>
+            <div>
+                <img src="./amazon/automotive/auto1.jpg" alt="">
+                <p>Cleaning accessories</p>
+            </div>
+            <div>
+                <img src="./amazon/automotive/auto2.jpg" alt="">
+                <p>Tyre & rim care</p>
+            </div>
+            <div>
+                <img src="./amazon/automotive/auto3.jpg" alt="">
+                <p>Helmets</p>
+            </div>
+            <div>
+                <img src="./amazon/automotive/auto4.jpg" alt="">
+                <p>Vacuum cleaner</p>
+            </div>
+
+        </div>
+        <div class="card flex_container">
+            <h2>Shop by Category</h2>
+            <div>
+                <img src="./amazon/category/fresh.jpg" alt="">
+                <p>Fresh</p>
+            </div>
+            <div>
+                <img src="./amazon/category/mobiles.jpg" alt="">
+                <p>Mobiles</p>
+            </div>
+            <div>
+                <img src="./amazon/category/fashion.jpg" alt="">
+                <p>Feshion</p>
+            </div>
+            <div>
+                <img src="./amazon/category/electronic.jpg" alt="">
+                <p>Electronics</p>
+            </div>
+
+
+        </div>
+        <div class="card">
+            <h2>Up to 70% off | Clearance store</h2>
+            <img style="width: 250px; height: 200px; margin-left: 25px;" src="./amazon/leptop.jpg" alt="">
+
+        </div>
+        <div class="card">
+            <h2>Pay your credit card bills on Amazon</h2>
+            <img style="width: 250px; height: 200px; margin-left: 25px;" src="./amazon/creditcard.jpg" alt="">
+            <a href="">Pay now</a>
+        </div>
+    </section>
+
+    <!-- horizontal scrol menu  -->
+    <section class="main_view">
+        <h1>Today’s Deals</h1>
+        <div class="today_deals" id="content">
+            <div class="today_card">
+                <img src="./amazon/today/mobile.jpg" alt="">
+                <p>₹56,990.00-₹61,999.00</p>
+            </div>
+            <div class="today_card">
+                <img src="./amazon/today/leptop.jpg" alt="">
+                <p>₹38,990.00-₹46,990.00</p>
+            </div>
+            <div class="today_card">
+                <img src="./amazon/today/ear.jpg" alt="">
+                <p>₹1,299.00-₹20,490.00</p>
+            </div>
+            <div class="today_card">
+                <img src="./amazon/today/nivel.jpg" alt="">
+                <p>₹81.00-₹1,699.00</p>
+            </div>
+            <div class="today_card">
+                <img src="./amazon/today/router.jpg" alt="">
+                <p>₹449.00-₹1,85,832.00</p>
+            </div>
+            <div class="today_card">
+                <img src="./amazon/today/nackbond.jpg" alt="">
+                <p>₹899.00-₹2,999.00</p>
+            </div>
+            <div class="today_card">
+                <img src="./amazon/today/girl.jpg" alt="">
+                <p>₹178.00-₹909.00</p>
+            </div>
+            <div class="today_card">
+                <img src="./amazon/today/shoes.jpg" alt="">
+                <p>₹371.00-₹12,333.00</p>
+            </div>
+            <div class="today_card">
+                <img src="./amazon/today/watch.jpg" alt="">
+                <p>₹509.00-₹17,450.00</p>
+            </div>
+            <div class="today_card">
+                <img src="./amazon/today/vaseline.jpg" alt="">
+                <p>₹97.75-₹2,380.00</p>
+            </div>
+            <div class="today_card">
+                <img src="./amazon/today/men.jpg" alt="">
+                <p>₹99.00-₹2,356.00</p>
+            </div>
+            <div class="today_card">
+                <img src="./amazon/today/gift.jpg" alt="">
+                <p>₹159.00-₹989.00</p>
+            </div>
+            <div class="today_card">
+                <img src="./amazon/today/dani.jpg" alt="">
+                <p>₹499.00-₹996.00</p>
+            </div>
+            <div class="today_card">
+                <img src="./amazon/today/bad.jpg" alt="">
+                <p>₹158.00-₹4,406.00</p>
+            </div>
+            <div class="today_card">
+                <img src="./amazon/today/khilona.jpg" alt="">
+                <p>₹111.00-₹4,379.00</p>
+            </div>
+            <div class="today_card">
+                <img src="./amazon/today/oil.jpg" alt="">
+                <p>₹99.00-₹3,699.00</p>
+            </div>
+            <div class="today_card">
+                <img src="./amazon/today/salvar.jpg" alt="">
+                <p>₹99.00-₹1,699.00</p>
+            </div>
+        </div>
+
+        <button class="left_btn" id="btnLeft"><i class="fa-solid fa-angle-left"></i></button>
+        <button class="right_btn" id="btnRight"><i class="fa-solid fa-angle-right"></i></button>
+    </section>
+    <hr>
+    <!-- sign in -->
+    <section class="sign_in">
+        <div style="width:300px; margin: auto;">
+            <p>See personalized recommendations</p>
+            <button class="sign_btn">Sign in</button>
+            <p>New customer?<span style="color: blue; cursor: pointer;"> Start here</span></p>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <section class="footer">
+            <ul>
+                <li><a href="">Get to Know Us</a></li>
+                <li> <a href="">About Us</a></li>
+                <li> <a href="">Careers</a></li>
+                <li> <a href="">Press Releases</a></li>
+                <li><a href="">Amazon CaresAmazon Cares</a></li>
+                <li> <a href="">Gift a Smile</a></li>
+                <li> <a href="">Amazon Science</a></li>
+            </ul>
+
+            <ul>
+                <li><a href="">With Us</a></li>
+                <li><a href="">Facebook</a></li>
+                <li><a href="">Twitter</a></li>
+                <li><a href="">Instagram</a></li>
+            </ul>
+
+            <ul>
+                <li><a href="">Make Money with Us</a></li>
+                <li><a href="">Sell on Amazon</a></li>
+                <li><a href="">Sell under Amazon Accelerator</a></li>
+                <li><a href="">Amazon Global Selling</a></li>
+                <li><a href="">Become an Affiliate</a></li>
+                <li><a href="">Fulfilment by Amazon</a></li>
+                <li><a href="">Advertise Your Products</a></li>
+                <li><a href="">Amazon Pay on Merchants</a></li>
+            </ul>
+
+            <ul>
+                <li><a href="">Let Us Help You</a></li>
+                <li><a href="">COVID-19 and Amazon</a></li>
+                <li><a href="">Your Account</a></li>
+                <li><a href="">Returns Centre</a></li>
+                <li><a href="">100% Purchase Protection</a></li>
+                <li><a href="">Amazon App Download</a></li>
+                <li><a href="">Amazon Assistant Download</a></li>
+                <li><a href="">Help</a></li>
+            </ul>
+        </section>
+        <hr>
+        <h4>All &#169; Amazon</h4>
+    </footer>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
